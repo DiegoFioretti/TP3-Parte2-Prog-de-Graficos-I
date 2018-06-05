@@ -126,6 +126,10 @@ copy "$(SolutionDir)allegro_5.1.12_x86\bin\allegro_image-debug-5.1.dll" "$(Solut
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\test.jpg" />
+    <Image Include="test2.jpg" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
